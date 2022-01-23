@@ -60,7 +60,7 @@ function collideupdate(){
 
     game.physics.arcade.collide(goccia_3, stala_finale, function() {
       goccia_3.kill()
-      game.time.events.add(Phaser.Timer.SECOND*1.5, function(){switchToOrfeo()})
+      game.time.events.add(Phaser.Timer.SECOND*0.5, function(){switchToOrfeo()})
       current = 0
 
       stala_finale.animations.play('stala_vanish')
