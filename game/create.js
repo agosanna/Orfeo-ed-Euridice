@@ -228,6 +228,6 @@ function create() {
     c = game.input.keyboard.addKey(Phaser.Keyboard.C);
 
     //orfeo.x = 17075;
-    orfeo.x = 5700;
+    //orfeo.x = 5700;
     //euridice.x = 20288;
 }
