@@ -210,32 +210,25 @@ if (orfeo.x > 600 && checkPoint_O.x < 600) {
 
 /*PLATFORMMOVABLE*/
 
-if (movePlatforms_b2.y === 160+390) {
-  movePlatforms_b2.body.velocity.y = - 200
+if (movePlatforms_b2.y === 592) {
+  movePlatforms_b2.body.velocity.y = - 300
 }
 if (movePlatforms_b2.y === 160) {
-  movePlatforms_b2.body.velocity.y = 200
-}
-
-if (movePlatforms_b3.y === 592 ) {
-  movePlatforms_b3.body.velocity.y = -200
-}
-if (movePlatforms_b3.y === 160 ) {
-  movePlatforms_b3.body.velocity.y = 200
+  movePlatforms_b2.body.velocity.y = 300
 }
 
 if (movePlatforms_b4.y === 480 ) {
-  movePlatforms_b4.body.velocity.y = -200
+  movePlatforms_b4.body.velocity.y = -300
 }
 if (movePlatforms_b4.y === 352 ) {
-  movePlatforms_b4.body.velocity.y = 200
+  movePlatforms_b4.body.velocity.y = 300
 }
 
 if (movePlatforms_b6.y === 256 + 160 ) {
-  movePlatforms_b6.body.velocity.y = -200
+  movePlatforms_b6.body.velocity.y = -300
 }
 if (movePlatforms_b6.y === 256 ) {
-  movePlatforms_b6.body.velocity.y = 200
+  movePlatforms_b6.body.velocity.y = 300
 }
 
 
