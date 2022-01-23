@@ -319,7 +319,7 @@ function environmentBoscopreload(){
      movePlatforms_b1 = movePlatforms_b.create(26706, 384, 'platformBmagic');
      movePlatforms_b2 = movePlatforms_b.create(25024, 160, 'platformB2');
      movePlatforms_b3 = movePlatforms_b.create(24448, 160, 'platformB2');
-     movePlatforms_b4 = movePlatforms_b.create(23336, 400, 'platformB1');
+     movePlatforms_b4 = movePlatforms_b.create(23336, 352, 'platformB1');
      movePlatforms_b5 = movePlatforms_b.create(22208, 448, 'platformB1');
      movePlatforms_b6 = movePlatforms_b.create(22080, 256, 'platformB1');
      movePlatforms_b7 = movePlatforms_b.create(22208, 160, 'platformB1');
