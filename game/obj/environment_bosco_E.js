@@ -130,36 +130,36 @@ function environmentBoscopreload(){
    
    /*WATERPLATFORM_TWEEN*/
      game.time.events.add(Phaser.Timer.SECOND * 3, function () {
-       var tween1 = game.add.tween(waterPlatform5).to( {x: waterPlatform5.x +1700}, 15000, "Linear",true);
+       var tween1 = game.add.tween(waterPlatform5).to( {x: waterPlatform5.x +2000}, 15000, "Linear",true);
        tween1.repeat(10000,0 );
      })
    
      game.time.events.add(Phaser.Timer.SECOND * 6, function () {
-       var tween2 = game.add.tween(waterPlatform4).to( {x: waterPlatform4.x +1700}, 15000, "Linear",true);
+       var tween2 = game.add.tween(waterPlatform4).to( {x: waterPlatform4.x +2000}, 15000, "Linear",true);
        tween2.repeat(10000,0 );
      })
    
      game.time.events.add(Phaser.Timer.SECOND * 9, function () {
-       var tween3 = game.add.tween(waterPlatform3).to( {x: waterPlatform3.x +1700}, 15000, "Linear",true);
+       var tween3 = game.add.tween(waterPlatform3).to( {x: waterPlatform3.x +2000}, 15000, "Linear",true);
        tween3.repeat(10000,0 );
      })
    
      game.time.events.add(Phaser.Timer.SECOND * 12, function () {
-       var tween4 = game.add.tween(waterPlatform2).to( {x: waterPlatform2.x +1700}, 15000, "Linear",true);
+       var tween4 = game.add.tween(waterPlatform2).to( {x: waterPlatform2.x +2000}, 15000, "Linear",true);
        tween4.repeat(10000,0 );
      })
    
      game.time.events.add(Phaser.Timer.SECOND * 15, function () {
-         var tween5 = game.add.tween(waterPlatform1).to( {x: waterPlatform1.x +1700}, 15000, "Linear",true);
+         var tween5 = game.add.tween(waterPlatform1).to( {x: waterPlatform1.x +2000}, 15000, "Linear",true);
          tween5.repeat(10000,0 );
      })
    
      game.time.events.add(Phaser.Timer.SECOND * 2, function () {
-         var tween6 = game.add.tween(waterPlatform6).to( {x: waterPlatform6.x +550}, 4000, "Linear",true);
+         var tween6 = game.add.tween(waterPlatform6).to( {x: waterPlatform6.x +850}, 4000, "Linear",true);
          tween6.repeat(10000,0 );
      })
      game.time.events.add(Phaser.Timer.SECOND * 4, function () {
-         var tween7 = game.add.tween(waterPlatform7).to( {x: waterPlatform7.x +550}, 4000, "Linear",true);
+         var tween7 = game.add.tween(waterPlatform7).to( {x: waterPlatform7.x +850}, 4000, "Linear",true);
          tween7.repeat(10000,0 );
      })
    
