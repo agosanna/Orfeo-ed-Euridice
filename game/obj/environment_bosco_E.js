@@ -155,11 +155,11 @@ function environmentBoscopreload(){
      })
    
      game.time.events.add(Phaser.Timer.SECOND * 2, function () {
-         var tween6 = game.add.tween(waterPlatform6).to( {x: waterPlatform6.x +850}, 4000, "Linear",true);
+         var tween6 = game.add.tween(waterPlatform6).to( {x: waterPlatform6.x +758}, 4000, "Linear",true);
          tween6.repeat(10000,0 );
      })
      game.time.events.add(Phaser.Timer.SECOND * 4, function () {
-         var tween7 = game.add.tween(waterPlatform7).to( {x: waterPlatform7.x +850}, 4000, "Linear",true);
+         var tween7 = game.add.tween(waterPlatform7).to( {x: waterPlatform7.x +758}, 4000, "Linear",true);
          tween7.repeat(10000,0 );
      })
    
