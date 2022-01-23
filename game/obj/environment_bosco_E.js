@@ -27,7 +27,7 @@ function environmentBoscopreload(){
      game.load.image('floorB6', 'assets/floorBosco/floorB6.png');
      game.load.image('floorB7', 'assets/floorBosco/floorB7.png');
      game.load.image('floorB8', 'assets/floorBosco/floorB8.png');
-     game.load.image('floorB9', 'assets/floorBosco/floorB9.png');
+     game.load.image('floorB9', 'assets/floorBosco/floorb9.png');
      game.load.image('gradino', 'assets/floorBosco/gradino.png');
      game.load.image('roof1', 'assets/floorBosco/roof1.png');
      game.load.image('roof2', 'assets/floorBosco/roof2.png');
