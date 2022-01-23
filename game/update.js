@@ -217,17 +217,17 @@ if (movePlatforms_b2.y === 160) {
   movePlatforms_b2.body.velocity.y = 200
 }
 
-if (movePlatforms_b3.y === 400 + 159 ) {
+if (movePlatforms_b3.y === 592 ) {
   movePlatforms_b3.body.velocity.y = -200
 }
-if (movePlatforms_b3.y === 400 ) {
+if (movePlatforms_b3.y === 160 ) {
   movePlatforms_b3.body.velocity.y = 200
 }
 
-if (movePlatforms_b4.y === 352 + 160 ) {
+if (movePlatforms_b4.y === 480 ) {
   movePlatforms_b4.body.velocity.y = -200
 }
-if (movePlatforms_b4.y === 480 ) {
+if (movePlatforms_b4.y === 352 ) {
   movePlatforms_b4.body.velocity.y = 200
 }
 
