@@ -1,0 +1,32 @@
+#home {
+    opacity: 1;
+}
+
+.button {
+    position: absolute;
+}
+
+#button_play {
+    width: 250px;
+    height: 100px;
+    top: 270px;
+    left: 740px;
+}
+
+#button_story {
+    width: 190px;
+    height: 100px;
+    top: 420px;
+    left: 740px;
+}
+
+#button_authors_credits {
+    width: 150px;
+    height: 80px;
+    top: 580px;
+    left: 680px;
+}
+
+#menu_home {
+    opacity: 1;
+}

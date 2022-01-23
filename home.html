@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+    <title>Orfeo ed Euridice</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_home.css">
+    
+</head>
+
+<body onload="home_background()"> 
+
+    <div class="webapp_frame">
+
+    <!--immagini menu-->
+      <img id="menu_home" class="slide current_slide" src="webapp/Home/home.jpg">
+      <img id="menu_play" class="slide" src="webapp/Home/home_play.jpg">
+      <img id="menu_story" class="slide" src="webapp/Home/home_story.jpg">
+      <img id="menu_authors_credits" class="slide" src="webapp/Home/home_authors_credits.jpg">
+
+    <!--pulsanti menu-->
+
+        <a href="game.html">
+            <div class="button" id ="button_play" onmouseover="hover_play()" onmouseout="hover_home()"></div>
+        </a>
+
+        <a href="story.html">     
+        <div class="button" id ="button_story" onmouseover="hover_story()" onmouseout="hover_home()"> </div>
+        </a>
+
+        <a href="authors.html">
+        <div class="button" id ="button_authors_credits" onmouseover="hover_authors_credits ()" onmouseout="hover_home()"> </div>
+        </a>  
+
+    </div>
+    
+
+</body>
+
+<script src="webapp_script.js"></script>
+
+</html>

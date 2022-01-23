@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orfeo ed Euridice</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+  </head>
+
+  <body onload="game_background(), loading()">
+
+    <div class="sfondo"></div>
+
+    <div class="webapp_frame">
+    </div>
+
+    <div class="loading loading_active">
+      <img src="webapp/Game/loading_final.gif" style="height: 100%;">
+    </div>
+
+    <!-- Phaser lib -->
+    <script src="phaser.min.js"></script>
+    <script src="phaser-arcade-slopes.min.js"></script>
+
+    <!-- Game lifecycle -->
+
+    <script src="webapp_script.js"></script>
+    <script src="game/obj/environment.js"></script>
+    <script src="game/obj/background.js"></script>
+    <script src="game/obj/geyser.js"></script>
+    <script src="game/obj/environment_bosco_E.js"></script>
+    <script src="game/obj/HUD.js"></script>
+    <script src="game/obj/holes.js"></script>
+    <script src="game/preload.js"></script>
+    <script src="game/create.js"></script>
+    <script src="game/obj/magicCreatures.js"></script>
+    <script src="game/obj/portale.js"></script>
+    <script src="game/update.js"></script>
+    <script src="game/collide.js"></script>
+
+
+  </body>
+</html>

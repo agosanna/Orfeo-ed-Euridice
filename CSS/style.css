@@ -1,0 +1,108 @@
+*, *::before *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .iframe {
+    width: 1024px;
+    height: 768px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    overflow: hidden;
+  }
+
+  .sfondo {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 2s ease-in-out;
+    background-color: red;
+    /*z-index: -1;*/
+    opacity: 0;
+  }
+
+  .blur {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.05);
+    backdrop-filter:blur(80px);
+  }
+
+  #game_background {
+    height: 100%;
+  }
+
+  .webapp_frame {
+    width: 1024px;
+    height: 768px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    animation: fadeIn 2s forwards;
+  }
+
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .current_background {
+    opacity: 1;
+  }
+
+  .current_slide {
+    opacity: 1;
+  }
+
+  .hidden {
+    display: none;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  transition-delay: 3s;
+  pointer-events: none;
+}
+
+.loading_active {
+  opacity: 1;
+}

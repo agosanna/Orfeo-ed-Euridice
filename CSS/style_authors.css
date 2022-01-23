@@ -1,0 +1,14 @@
+.tasto_menu {
+    position: absolute;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+}
+
+.tasto_credits {
+    position: absolute;
+    height: 60px;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
