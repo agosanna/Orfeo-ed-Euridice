@@ -426,7 +426,7 @@ if (!euridice.body.touching.left || !euridice.body.touching.right) {
             waterfall_1.kill();
           }
 
-          if (movable6.x < 20912) {
+          if (movable6.x < 20832) {
             waterfall_2.kill();
           }
 
