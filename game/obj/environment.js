@@ -130,11 +130,6 @@ fiammone.animations.play('fiammonefuocoso');
 game.physics.arcade.enable(fiammone);
 fiammone.body.immovable = true;
 
-  /*PONTE*/
-
-  Ponte = game.add.sprite(6016, 576,'ponte');
-  Ponte.visible = false
-  Ponte.animations.add('Pontecreate', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10, false);
 
 
   /*BUBBLES*/
@@ -334,7 +329,14 @@ stala_finale.animations.add('stala_vanish', [0, 1, 2, 3, 4, 5], 5, false);
   });
 
 
+  /*PONTE*/
 
+  ponte = game.add.sprite(6016, 576,'ponte');
+  ponte.visible = false
+  ponte.animations.add('pontecreate', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10, false);
+  game.physics.arcade.enable(ponte);
+  ponte.body.setSize(0,0)
+  ponte.body.immovable = true
 
   /*timePlatforms = game.add.physicsGroup();
   for (var p of platformInitialStates) {
