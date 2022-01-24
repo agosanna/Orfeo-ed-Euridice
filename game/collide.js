@@ -114,7 +114,7 @@ function collideupdate(){
 
 
     game.physics.arcade.collide(euridice, goccia_3, function (){
-      game.time.events.add(Phaser.Timer.SECOND*1.5, function(){goccia_3.x = 17088;
+      game.time.events.add(Phaser.Timer.SECOND*0.5, function(){goccia_3.x = 17088;
       goccia_3.y = 128; euridice.x = 20000; game.camera.follow(goccia_3, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);}, this);
       if (goccia_3.x = 17088, goccia_3.y = 128)
       {
@@ -135,11 +135,24 @@ function collideupdate(){
     game.physics.arcade.collide(movable, floorB);
     game.physics.arcade.collide(movable, platformsB);
     game.physics.arcade.collide(euridice, buttonup, function(){
-      if (buttonup.body.touching.up){
-        buttonup.loadTexture('buttondown', 0);
-        var tween_01 =  game.add.tween(movePlatforms_b1).to( {x: movePlatforms_b1.x + 448}, 2000, "Linear", true, 0, -1,true);
-      }
+      buttonpressed = true;
+
     });
+
+    if (buttonpressed === true){
+      buttonup.loadTexture('buttondown', 0);
+
+      if (platformsB.children[2].x > 27136 ) {
+        platformsB.children[2].body.velocity.x = -200
+        buttonup.body.velocity.x = -200
+      }
+
+      if (platformsB.children[2].x  === 26240 ) {
+        platformsB.children[2].body.velocity.x = 200
+        buttonup.body.velocity.x = 200
+      }
+
+    }
 
       game.physics.arcade.collide(euridice, movePlatforms_b, function(obj1, platform){obj1.x += platform.deltaX,obj1.Y += platform.deltaY });
 
