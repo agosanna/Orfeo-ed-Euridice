@@ -129,7 +129,7 @@ switchCounter++
 //ò
 function update () {
 
-  hudupdate()
+
   collideupdate()
   //console.log(euridice.body.velocity.x);
 
@@ -415,11 +415,11 @@ if (!euridice.body.touching.left || !euridice.body.touching.right) {
 
     /*WATERFALL*/
 
-          if (movable3.x < 26330) {
+          if (movable3.x < 25930) {
             waterfall_1.kill();
           }
 
-          if (movable6.x < 20832) {
+          if (movable6.x < 20812) {
             waterfall_2.kill();
           }
 
@@ -431,7 +431,7 @@ if (!euridice.body.touching.left || !euridice.body.touching.right) {
 
 
 
-
+hudupdate()
 
 
 
