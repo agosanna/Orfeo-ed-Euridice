@@ -160,7 +160,7 @@ if (orfeo.x > 600 && checkPoint_O.x < 600) {
            checkPoint_E.x = 25300
            checkPoint_E.y = 300
        }
-       if (euridice.x < 23666 && checkPoint_E.x > 20000 ) {
+       if (euridice.x < 23512 && checkPoint_E.x > 20000 ) {
               checkPoint_E.x = 23312
               checkPoint_E.y = 250
           }
