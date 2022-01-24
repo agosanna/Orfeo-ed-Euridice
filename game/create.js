@@ -57,6 +57,7 @@ var die = false;
 var moveObj = false;
 var runE = true;
 var runO = true;
+buttonpressed = false;
 
 
 
@@ -202,6 +203,9 @@ function create() {
 
 
 
+
+
+
     geysercreate();
     environmentcreate();
     environmentBoscocreate();
@@ -210,14 +214,6 @@ function create() {
     hudcreate();
 
 
-        /*PONTE*/
-
-        ponte = game.add.sprite(6016, 576,'ponte');
-        ponte.visible = false
-        ponte.animations.add('pontecreate', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10, false);
-        game.physics.arcade.enable(ponte);
-        ponte.body.setSize(0,0)
-        ponte.body.immovable = true
 
     /*CONTROLS*/
 
